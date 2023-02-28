@@ -40,3 +40,7 @@ frm.addEventListener("submit", (e) => {
     frm.inputNumero.value = "";
     frm.inputNumero.focus();
 })
+
+frm.botaoNovo.addEventListener("click", () => {
+    location.reload();
+})
